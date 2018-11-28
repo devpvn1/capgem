@@ -1,0 +1,57 @@
+.tcrn_image {
+    width: 23rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    float: left;
+    padding-right: 3rem;
+}
+.footer-links {
+    margin-top: 6rem;
+}
+.footer-links a {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    background-color: inherit;
+    color: inherit;
+    vertical-align: text-bottom;
+}
+.crown-copyright {
+    background-color: inherit;
+    font-size: 1.4rem;
+    margin: 0 auto;
+}
+.crown-copyright img{
+    width: 12.5rem;
+    height: 10.9rem;
+    display: block;
+    margin: 0 auto;
+}
+.crown-copyright div{
+    text-align: center;
+}
+.ogl {
+    display: block;
+    background: url("../img/ogl.png") 0 0 no-repeat;
+    background-size: 4rem 1.6rem;
+    margin-top:2rem;
+    font-size: 1.4rem;
+}
+.ogl a{
+    vertical-align: middle;
+}
+.text-ogl{
+    text-align: left;
+    padding-left: 5rem;
+}
+.footer-bottom{
+    height: 10rem;
+    background-color: white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}

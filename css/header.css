@@ -1,0 +1,31 @@
+.topmost {
+    top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.bar-orange {
+    border: 0.1rem solid orange;
+}
+.bar-blue {
+    top: 0.2rem;
+    color: royalblue;
+    border: 0.3rem solid royalblue;
+    border-color: inherit;
+    margin-bottom: 0.8rem;
+}
+.green-padding {
+    border-left-width: 0.2rem;
+    border-left-style: solid;
+    height: 2.4rem;
+    width: 30rem;
+    border-left-color: #008670;
+    display: inline-block;
+}
+.logo {
+    width: 2.4rem;
+}
+.crest-text {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+}

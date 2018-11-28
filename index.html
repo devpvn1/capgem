@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Renew your Tax Credits</title>
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+    </head>
+    <body>
+        <article class="wrapper">
+            <div class="topmost bar-orange"></div>
+            <section class="content-wrapper">   
+                <header class="row">
+                    <div class="bar-blue"></div>
+                    <div class="green-padding">
+                        <div class="no-wrap">
+                            <img src="img/hmrc-logo.png" class="header logo"/>
+                            <span class="crest-text no-wrap">
+                                HM Revenue & Customs
+                            </span>
+                        </div>
+
+                    </div>
+                </header>
+                <main class="row">
+                    <div class="container">
+                        <form method="post" action="_self">
+                            <input type="hidden" name="csrf-token" value=""/>
+                            <h1>Renew your tax credits</h1>
+                            <h2>Your details</h2>
+                            <div>
+                                <span>Your National Insurance number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <span>
+                                    <a href="#">Show me where to find this</a>
+                                </span>
+                                <div>
+                                    <input
+                                        type="text"
+                                        name="ni_number"
+                                        id="ni_number"
+                                        value=""
+                                        required="required"
+                                        maxlength="11"
+                                        class="ni-input"
+                                        />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="pre">
+Your tax credits renewal number is the 15 digit number on the bottom right
+hand corner of your annual declaration. Enter it below.
+                                </div>
+                                <div>
+                                    <img src="img/tcrn.png" class="tcrn_image"/>
+                                </div>
+                                <div>Your tax credits renewal number</div>
+                                <div>
+                                    <input
+                                        type="text"
+                                        name="tcr_number"
+                                        id="tcr_number"
+                                        value=""
+                                        required="required"
+                                        maxlength="15"
+                                        class="taxcredit-input"
+                                        />
+                                </div>
+                            </div>
+                            <input
+                                id="btn-submit"
+                                type="submit"
+                                name="btn-next"
+                                class="button"
+                                value="Next"/>
+                            <div class="page-help">
+                                    <a href="#" >Get help with this page.</a>
+                            </div>
+                        </form>
+                    </div>
+                </main>
+            </section>
+            <footer class="footer" role="contentinfo">
+                <section class="wrapper row">
+                        <div class="footer-links col-9">
+                            <ul class="row">
+                                <li>
+                                    <a href="#">Help</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cookies</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms and conditions</a>
+                                </li>
+                            </ul>
+                            <div class="row">
+                                <div class="ogl text-ogl">
+                                    All content is available under the
+                                    <a
+                                        href="#">
+                                        Open Government Licence v2.0</a>, except where otherwise stated
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3">
+                            <div class="crown-copyright">
+                                <img src="img/crown-copyright.png" class="row"/>
+                                <div class="row">&copy; Crown Copyright</div>
+                            </div>
+                        </div>
+                        
+                </section>
+            </footer>
+            <section class="footer-bottom row">
+
+            </section>
+        </article>
+        
+    </body>
+</html>

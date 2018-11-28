@@ -1,0 +1,59 @@
+main{
+    line-height: 2.5rem;
+}
+h1{
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-top: 2.9rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-top: 2.9rem;
+    margin-bottom: 1rem;
+}
+.button{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.1875rem;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    border: 0.2rem solid transparent;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #00823b;
+    box-shadow: 0 0.2rem 0 #003618;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+.page-help{
+   color: #6f777b;
+   margin-top: 6rem;
+}
+input{
+    height: 2.5rem;
+    border-style: inset;
+    border-width: 0.1rem;
+}
+.ni-input{
+    width: 9rem;
+}
+.taxcredit-input{
+    width: 16rem;
+}
+.pre{
+    white-space: pre;
+}
+a:link{
+   color:  #005ea5;
+}
